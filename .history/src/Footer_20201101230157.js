@@ -34,7 +34,8 @@ function Footer() {
         <hr />
         <div className="row">
           <p className="col-sm">
-            &copy;{new Date().getFullYear()} Code &amp; Candor | All rights reserved
+            &copy;{new Date().getFullYear()} Code &amp; Candor | All rights reserved |
+            Terms Of Service | Privacy
           </p>
         </div>
       </div>
