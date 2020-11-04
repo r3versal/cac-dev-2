@@ -19,6 +19,18 @@
   }
 }
 
+@font-face {
+  font-family: VictorMono-BoldItalic;
+  src: url(fonts/VictorMonoAll/WOFF/VictorMono-BoldItalic.woff) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: VictorMono-Bold;
+  src: url(fonts/VictorMonoAll/WOFF/VictorMono-Bold.woff) format("truetype");
+  font-weight: 500;
+}
+
 .footer {
   position:absolute;
   left:0;
@@ -82,7 +94,6 @@ body {
     background: transparent;
     color: white;
     font-family: "VictorMono-Regular";
-    src: url(/fonts/VictorMono-Regular.woff);
     font-size: 16px;
 }
 
@@ -95,7 +106,7 @@ p {
 .wrapper {
     margin: 0 auto;
     width: 90%;
-    padding-bottom:60px;
+    padding-bottom:0px;
 }
 
 .half-black {
@@ -163,26 +174,18 @@ a:hover {
   color: #888888 !important; }
 
 h1 {
-  font-family: "VictorMono-Bold";
-  src: url(/fonts/VictorMono-Bold.woff);
   font-size: 4rem;
   font-weight: 600; }
 
 h2 {
-  font-family: "VictorMono-Regular";
-  src: url(/fonts/VictorMono-Regular.woff);
   font-size: 2.8rem;
   font-weight: 500; }
 
 h3 {
-  font-family: "VictorMono-Regular";
-  src: url(/fonts/VictorMono-Regular.woff);
   font-size: 2rem;
   font-weight: 500; }
 
 h4 {
-  font-family: "VictorMono-Regular";
-  src: url(/fonts/VictorMono-Regular.woff);
   font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase; }
@@ -200,11 +203,11 @@ h4 {
 
 a.navbar-brand, a.logo {
   font-family: "VictorMono-Bold";
-  src: url(/fonts/VictorMono-Bold.woff);
   color: #fff !important;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-top: 0; }
+  margin-top: 0; 
+  text-align: right;}
 
 a.logo:hover, a.logo:active, a.logo:focus {
   text-decoration: none; }
@@ -215,8 +218,6 @@ a.logo:hover, a.logo:active, a.logo:focus {
 .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .5rem;
-    font-family: "VictorMono-Regular";
-    src: url(/fonts/VictorMono-Regular.woff);
 }
 
 ul.navbar-nav {
